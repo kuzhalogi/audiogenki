@@ -1,0 +1,6 @@
+datasets==2.19.1
+yt-dlp==2024.5.27
+jupyter==1.0.0
+urllib3==2.2.1
+librosa==-0.10.2.post1
+ffmpeg==4.3:

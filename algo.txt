@@ -1,0 +1,22 @@
+Sample Rate: 22050 Hz
+Duration: 0.74 seconds
+Hop Length: 256
+Frame Size: 512
+
+STFT will prouce half of the frame size in Frequency bins so,
+
+dimention 1:
+Frequency Bins = Frame Size / 2 
+               = 512 / 2 
+               = 256
+256 corresponds to the frequency bins.
+
+dimention 2:
+Total Samples=Sample Rate×Duration
+             =22050×0.74
+             =16317 samples
+
+Time Frames = Hop Length/Total Samples
+            = 256/16317
+            ≈63.76
+  so, 64 frames.
